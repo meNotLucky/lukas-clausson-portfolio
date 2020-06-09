@@ -129,13 +129,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-section {
-	padding: 4.5em 0;
+	padding: 4.5em 0 0 0;
 	@include media-breakpoint-up(md) {
-		padding: 7em 0;
+		padding: 7em 0 0 0;
 	}
 
 	&.site-section-sm {
-		padding: 4em 0;
+		padding: 4em 0 0 0;
 	}
 }
 
