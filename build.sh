@@ -1,2 +1,2 @@
 #!/bin/bash
-php index.php
+php index_builder.php

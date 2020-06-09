@@ -4,11 +4,6 @@
 $projects_data = file_get_contents('content/projects.json');
 $projects = json_decode($projects_data);
 
-//Print data
-// print "<pre style='color: white !important;'>";
-// print_r($projects);
-// print "</pre>";
-
 ?>
 
 
