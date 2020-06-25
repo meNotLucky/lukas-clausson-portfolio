@@ -13,7 +13,7 @@ foreach($projects as $proj) :
 
 $page_content .= '<div class="row mb-5">';
 
-$page_content .= ($flip ? "<div class='col-lg-6 mb-4 mb-lg-0'>" : "<div class='col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0'>");
+$page_content .= ($flip ? "<div class='col-lg-6 mb-4 mb-lg-0 h-100 jm-sticky-top order-2 order-lg-1'>" : "<div class='col-lg-6 order-2 order-lg-2 mb-4 mb-lg-0 h-100 jm-sticky-top'>");
 
 $page_content .= '<img src="';
 $page_content .= $proj->splash;
@@ -26,7 +26,7 @@ foreach($proj->screenshots as $path) {
 }
         
 $page_content .= '</div>
-        <table style="margin-top: 40px;" class="table table-striped table-borderless">
+        <table style="" class="table table-striped table-borderless">
           <thead>
             <th>Specifications</th>
           </thead>
@@ -53,7 +53,7 @@ $page_content .= '</th>
         </table>
       </div>';
 
-$page_content .= ($flip ? "<div class='col-lg-5 h-100 jm-sticky-top ml-auto'>" : "<div class='col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1'>");
+$page_content .= ($flip ? "<div class='col-lg-5 ml-auto order-1 order-lg-2'>" : "<div class='col-lg-5 mr-auto order-1 order-lg-1'>");
         
 $page_content .= '<h3>';
 $page_content .= $proj->title;
@@ -74,7 +74,7 @@ $page_content .= '" class="d-flex align-items-center"><span class="icon-play_cir
         <p class="mb-4"><a href="';
 $page_content .= $proj->website;
 $page_content .= '" class="readmore" target="blank">Visit Game Website</a></p>
-        <div class="testimonial h-100">
+        <div class="testimonial mb-4">
           <blockquote class="mb-3">
             <p>&ldquo;';
 $page_content .= $proj->quote->text;
