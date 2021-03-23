@@ -1,0 +1,210 @@
+{
+  "sitemap": {
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/"
+  },
+  "homepages": [],
+  "source_base_path": "C:/Users/Lukas/Documents/Unity Projects/Unnamed Project/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Generator.GridCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Generator.GridCell.html",
+          "hash": "nwptktul6jPdEEtLw4aTAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Generator.GridLevelGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Generator.GridLevelGenerator.html",
+          "hash": "iVTKUXLfRXedpwRBHV7Pew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Generator.GridRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Generator.GridRoom.html",
+          "hash": "s8uBO2cZIVoOPUutAzGA+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Generator.html",
+          "hash": "7n2M+aT3YOWfYhD23krlwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Utility.ExitDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Utility.ExitDirection.html",
+          "hash": "LDWAn10/EAcRXX6iEOmjxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Utility.GridAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Utility.GridAlignment.html",
+          "hash": "cS5R9f2E+03ziUtqhVWLxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Utility.GridLevelUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Utility.GridLevelUtility.html",
+          "hash": "yfvh4C5xrOKt6aeZtuQbcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LevelGenerator.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LevelGenerator.Utility.html",
+          "hash": "cqojP7ZrwFdhC1PyInl6gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "mX9IxvANNIkxmi+zIvR6qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "8PnnoZ6fhMM9Flo/iY1yKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/quickstart.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/quickstart.html",
+          "hash": "86Pc0iHVqtWeGMCcW+pwHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "aeXzG5Mcb8XgDxTgN27WIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 8
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
