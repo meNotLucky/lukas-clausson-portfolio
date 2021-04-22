@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/meNotLucky/LukasClaussonWebsite/issues"
   },
-  "homepage": "https://github.com/meNotLucky/LukasClaussonWebsite#readme"
+  "homepage": "https://github.com/meNotLucky/LukasClaussonWebsite#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2"
+  }
 }

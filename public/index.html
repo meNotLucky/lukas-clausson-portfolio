@@ -2,70 +2,902 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SendGrid Netlify Form</title>
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lukas Clausson - Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="favicon.ico" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/vendor/fancybox/css/jquery.fancybox.min.css" rel="stylesheet">
+
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.1.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <div class="form-center">
-        <div class="form-container border rounded">
-            <form id="form">
-                <div class="mb-3">
-                    <label class="form-label" for="name">First Name:</label>
-                    <input required class="form-control" type="text" id="name" name="name">
-                </div>
-                <div class="mb-3 form-check">
-                    <input class="form-check-input" type="checkbox" id="burger" name="burger">
-                    <label class="form-check-label" class="form-label" for="burger">Burger</label>
-                </div>
-                <div class="mb-3 form-check">
-                    <input class="form-check-input" type="checkbox" id="fries" name="fries">
-                    <label class="form-check-label" class="form-label" for="fries">Fries</label>
-                </div>
-                <div class="mb-3">
-                    <label required class="form-label" for="info">More Information:</label>
-                    <textarea class="form-control" id="info" name="info"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="images/headshot_1.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Lukas Clausson</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/meNotLucky" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/lukasclausson/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/LukasClausson" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/lukasclausson/" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Lukas Clausson</h1>
+      <p><span class="typed" data-typed-items="Game Programmer, Game Designer, Software Developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main"><section id='portfolio' class='portfolio'>
+  <div class='container'>
+
+    <div class='section-title'>
+      <h2>Portfolio</h2>
+      <p>Hello! My name is Lukas and this is my portfolio. Here you can find all the games and projects I've worked on. You will also find a bit of information about me and what I do, my previous experiences, my skills and links to my social media.<br /><br />Welcome to my page! Feel free to look around.<br />// Lukas <i class='bx bxs-heart' ></i></p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <div class='row' data-aos='fade-up'>
+      <div class='col-lg-12 d-flex justify-content-center'>
+        <ul id='portfolio-flters'>
+          <li data-filter='*' class='filter-active'>All</li>
+          <li data-filter='.filter-student-games'>Student Games</li>
+          <li data-filter='.filter-personal-projects'>Personal Projects</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class='row portfolio-container' data-aos='fade-up' data-aos-delay='100'><div class='col-lg-4 col-md-6 portfolio-item filter-student-games'>
+        <button data-bs-toggle='modal' data-bs-target='#ofthesky' class='portfolio-wrap'>
+          <img src='images/ofthesky/ofthesky_splash.jpg' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>Of The Sky</h5>
+      </div><div class='col-lg-4 col-md-6 portfolio-item filter-student-games'>
+        <button data-bs-toggle='modal' data-bs-target='#homemaker' class='portfolio-wrap'>
+          <img src='images/happyhomemaker/happyhomemaker_splash.jpg' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>Happy Homemaker</h5>
+      </div><div class='col-lg-4 col-md-6 portfolio-item filter-student-games'>
+        <button data-bs-toggle='modal' data-bs-target='#cc' class='portfolio-wrap'>
+          <img src='images/colossalchaos/colossalchaos_splash.jpg' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>Colossal Chaos</h5>
+      </div><div class='col-lg-4 col-md-6 portfolio-item filter-personal-projects'>
+        <button data-bs-toggle='modal' data-bs-target='#levelgen' class='portfolio-wrap'>
+          <img src='images/levelgen/splash.png' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>Level Generator for Unity3D</h5>
+      </div><div class='col-lg-4 col-md-6 portfolio-item filter-personal-projects'>
+        <button data-bs-toggle='modal' data-bs-target='#zelda' class='portfolio-wrap'>
+          <img src='images/zelda/splash.png' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>Zelda in SDL</h5>
+      </div></div>
+  </div><div class='modal fade' id='ofthesky' tabindex='-1' aria-labelledby='oftheskyLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='oftheskyLabel'>Of The Sky</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
 
-    <script async>
-        document.getElementById("form").addEventListener("submit", this.onSubmit);
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
 
-        async function onSubmit() {
-            var name = document.getElementById("name").value;
-            var burger = document.getElementById("burger").checked;
-            var fries = document.getElementById("fries").checked;
-            var info = document.getElementById("info").value;
+              <div class='row gy-4'>
 
-            try {
-                await axios.post(
-                    '/.netlify/functions/sendgrid',
-                    {
-                        message: `<br>` + "Name: " + name + `<br>` + "Burger: " + burger + `<br>` + "Fries: " + fries + `<br>` + "More Information: " + info + `<br>`
-                    }
-                )
-            } catch (e) {
-                console.error(e)
-                alert('Your message could not be sent. Sorry about that.')
-            }
-        }
-    </script>
+                <div class='col-lg-8'>
 
+                  <div class='owl-carousel ofthesky-owl owl-theme owl-loaded'>
+                    <div class='item-video' data-merge='3'>
+                      <a data-fancybox href='https://www.youtube.com/watch?v=QUMXtxb2AQs'>
+                        <img src='images/ofthesky/ofthesky_splash.jpg' alt='Image' class='item'>
+                        <div class='item video-overlay'>
+                          <img src='assets/vendor/owl/assets/owl.video.play.png' alt='Image'>
+                        </div>
+                      </a>
+                    </div> <img src='images/ofthesky/ofthesky_screen_01.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_02.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_03.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_04.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_05.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_06.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_07.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_08.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_09.jpg' alt='Image' class='item'><img src='images/ofthesky/ofthesky_screen_10.jpg' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>Of the Sky is a third person 3D exploration and puzzle solving game. It takes place in a floating island world inspired by the beautiful scenery found on the Swedish island of Gotland. Using the easy to understand mechanics, explore the many floating islands, solve puzzles, and try to uncover the mystery of the fire keeping the islands afloat in the sky! You play as Hymn, a mysterious spirit-like creature whose motives are unknown, but who you can’t help but want to help guide.</p><p>In the development of the game my responsibilities included gameplay programming, system building, animation programming, UI programming, aduio programming, shader programming, performance optimization and more. I also spent a lot of time working with the lighting and VFX.</p><p>Most of my time went into the gameplay programming and the game feel. I decided to code all of the animations in the game rather than having the artists animating their models, as it gave us much more flexibility. With the system I built, non-programmer members of the team could themselves go in and change the properties of the animations dynamically during gameplay to see what would fit the best. This saved us a lot of time on redoing animations and such.</p><p>Of the Sky was developed in 8 weeks as part of the vertical slice course at Uppsala University and was displayed at <a href='https://itch.io/jam/gotland-game-conference-2020/rate/627412' target='blank'>GGC 2020</a> where it placed second in presentation and level design, as well as top 10 in all other categories.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
 
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>My Position</strong>: Lead Programmer & Technical Artist</li><li><strong>Engine</strong>: Unreal Engine 4</li><li><strong>Language</strong>: C++ & Blueprints</li><li><strong>Platform(s)</strong>: Windows 10</li><li><strong>Input</strong>: Gamepad, Mouse/Keyboard</li></ul>
+                    <a target='blank' class='readmore' href='https://unbookables.itch.io/of-the-sky'><strong>Website</strong></a>
+                  </div><section id='testimonials' class='testimonials'>
+                    <div class='testimonial-item'>
+                      <p>
+                        <i class='bx bxs-quote-alt-left quote-icon-left'></i>
+                        All in all it looks, sounds and feels great. For the few weeks of this project, it's impressive to see what you were able to get together, and with this amount of polish that you had time to get in there as well.
+                        <i class='bx bxs-quote-alt-right quote-icon-right'></i>
+                      </p>
+                      <img src='images/joakim.jpg' class='testimonial-img' alt=''>
+                      <h3>Joakim Enigk Sjöberg</h3>
+                      <h4>Technical Sound Designer at Hazelight</h4>
+                    </div>
+                  </section></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div><div class='modal fade' id='homemaker' tabindex='-1' aria-labelledby='homemakerLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='homemakerLabel'>Happy Homemaker</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
 
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
+
+              <div class='row gy-4'>
+
+                <div class='col-lg-8'>
+
+                  <div class='owl-carousel homemaker-owl owl-theme owl-loaded'>
+                    <div class='item-video' data-merge='3'>
+                      <a data-fancybox href='https://www.youtube.com/watch?v=p1SUtTDGZnY'>
+                        <img src='images/happyhomemaker/happyhomemaker_splash.jpg' alt='Image' class='item'>
+                        <div class='item video-overlay'>
+                          <img src='assets/vendor/owl/assets/owl.video.play.png' alt='Image'>
+                        </div>
+                      </a>
+                    </div> <img src='images/happyhomemaker/happyhomemaker_screen_01.jpg' alt='Image' class='item'><img src='images/happyhomemaker/happyhomemaker_screen_02.jpg' alt='Image' class='item'><img src='images/happyhomemaker/happyhomemaker_screen_03.jpg' alt='Image' class='item'><img src='images/happyhomemaker/happyhomemaker_screen_04.jpg' alt='Image' class='item'><img src='images/happyhomemaker/happyhomemaker_screen_05.jpg' alt='Image' class='item'><img src='images/happyhomemaker/happyhomemaker_screen_06.jpg' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>Happy Homemaker is a third person side scrolling 3D single player game with puzzle, exploration, and narrative elements. It’s the 1950’s and you play as a female trapped in a surreal house. You are on a quest of trying to find a way out. However, the house would rather see you dead than free.</p><p>Happy Homemaker was developed over the course of three months, but due to outside work most of the actual game was created over only two weeks. It was displayed at <a href='https://itch.io/jam/gotland-game-conference-2020/rate/639941' target='blank'>GGC 2020</a>.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
+
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>My Position</strong>: Programmer, Technical Artist & Designer</li><li><strong>Engine</strong>: Unreal Engine 4</li><li><strong>Language</strong>: C++ & Blueprints</li><li><strong>Platform(s)</strong>: Windows 10</li><li><strong>Input</strong>: Mouse/Keyboard</li></ul>
+                    <a target='blank' class='readmore' href='https://catbotcrew.itch.io/homemaker'><strong>Website</strong></a>
+                  </div><section id='testimonials' class='testimonials'>
+                    <div class='testimonial-item'>
+                      <p>
+                        <i class='bx bxs-quote-alt-left quote-icon-left'></i>
+                        The audio from the radio was super well done! The art really did make it feel like an old 50's american dream style game. Great job! :) Would love to experience more in the world!” <br><br> “Great 3D graphic and style that sets the mood of the game directy. The animations of the character and radio was vivid and smooth.
+                        <i class='bx bxs-quote-alt-right quote-icon-right'></i>
+                      </p>
+                      <img src='images/unnamed.png' class='testimonial-img' alt=''>
+                      <h3>Anonymous Playtesters</h3>
+                      <h4></h4>
+                    </div>
+                  </section></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div><div class='modal fade' id='cc' tabindex='-1' aria-labelledby='ccLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='ccLabel'>Colossal Chaos</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
+
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
+
+              <div class='row gy-4'>
+
+                <div class='col-lg-8'>
+
+                  <div class='owl-carousel cc-owl owl-theme owl-loaded'>
+                    <div class='item-video' data-merge='3'>
+                      <a data-fancybox href='https://www.youtube.com/watch?v=fWSdPTjQqAU'>
+                        <img src='images/colossalchaos/colossalchaos_splash.jpg' alt='Image' class='item'>
+                        <div class='item video-overlay'>
+                          <img src='assets/vendor/owl/assets/owl.video.play.png' alt='Image'>
+                        </div>
+                      </a>
+                    </div> <img src='images/colossalchaos/colossalchaos_screen_01.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_02.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_03.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_04.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_05.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_06.jpg' alt='Image' class='item'><img src='images/colossalchaos/colossalchaos_screen_07.jpg' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>A 3D destruction runner developed for the PC, where the player needs to save their village from a rampaging giant. The player jumps onto the shoulders of the giant and tries to steer the stampeding beast out of the village by twisting its head. Get ready for a dramatic ride filled with broken buildings, frightened farmers, and maybe a few crumbled cathedrals!</p><p>My responsibilities during the development mainly included gameplay programming, system building and performance optimization.</p><p>I spent a lot of time building and optimizing a destruction system where the giant would partially destroy buildings he would walk in to (as seen in the trailer). The system checks for structural points in each building and makes sure they are not all destroyed. If they are, the building completely collapses on itself. This prevents unnatural structures and floating pieces being left after the giant has partially destroyed the building.</p><p>Colossal Chaos was created in 8 weeks during the Arcade course at Uppsala University, and was displayed at GGC 2019 where is was nominated for best arcade game.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
+
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>My Position</strong>: Lead Programmer</li><li><strong>Engine</strong>: Unity 3D</li><li><strong>Language</strong>: C# (MonoBehaviour)</li><li><strong>Platform(s)</strong>: Windows 10</li><li><strong>Input</strong>: Custom Built Giant Head</li></ul>
+                    <a target='blank' class='readmore' href='https://www.colossalchaosgame.com/colossal%20chaos'><strong>Website</strong></a>
+                  </div><section id='testimonials' class='testimonials'>
+                    <div class='testimonial-item'>
+                      <p>
+                        <i class='bx bxs-quote-alt-left quote-icon-left'></i>
+                        I love this idea! The giants walk cycle is priceless and the game looks pretty to. It’s stupid fun and you managed to build an input that enhances the experience and at the same time create a game that could stand for itself.
+                        <i class='bx bxs-quote-alt-right quote-icon-right'></i>
+                      </p>
+                      <img src='images/danielle.jpg' class='testimonial-img' alt=''>
+                      <h3>Danielle Unéus</h3>
+                      <h4>COO & Producer at Eat Create Sleep</h4>
+                    </div>
+                  </section></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div><div class='modal fade' id='levelgen' tabindex='-1' aria-labelledby='levelgenLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='levelgenLabel'>Level Generator for Unity3D</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
+
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
+
+              <div class='row gy-4'>
+
+                <div class='col-lg-8'>
+
+                  <div class='owl-carousel levelgen-owl owl-theme owl-loaded'><img src='images/levelgen/screen_01.png' alt='Image' class='item'><img src='images/levelgen/screen_02.png' alt='Image' class='item'><img src='images/levelgen/screen_03.png' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>This is my latest project, and what I am currently working on during my free time. It is a static level generator with a custom UI built in C# (.NET and MonoBehaviour) for Unity3D.</p><p>The API currently features vertical and horizontal generation, control over both induvidual cell and level transformation, custom rooms with many options, a custom easy-to-use UI, dynamic level caching for a good workflow between levels, and a lot more.</p><p>Once the project is in a releasable state, it will be put up on the Unity Asset Store. For a full (still work in progress) API-documentation, head over to the project git repo linked to the right.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
+
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>Engine</strong>: Unity3D</li><li><strong>Language</strong>: C# (.NET & MonoBehaviour)</li></ul>
+                    <a target='blank' class='readmore' href='https://github.com/meNotLucky/GridLevelGenerator'><strong>Website</strong></a>
+                  </div></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div><div class='modal fade' id='zelda' tabindex='-1' aria-labelledby='zeldaLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='zeldaLabel'>Zelda in SDL</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
+
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
+
+              <div class='row gy-4'>
+
+                <div class='col-lg-8'>
+
+                  <div class='owl-carousel zelda-owl owl-theme owl-loaded'><img src='images/zelda/screen_01.png' alt='Image' class='item'><img src='images/zelda/screen_02.png' alt='Image' class='item'><img src='images/zelda/screen_03.png' alt='Image' class='item'><img src='images/zelda/screen_04.png' alt='Image' class='item'><img src='images/zelda/screen_05.png' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>This is a school project from the first year of Game design and programming at Uppsala University. The specific course is Game Programming 1. It turned into a bigger project than I expected, but I had a lot of fun with it.</p><p>The task was to recreate a classic game in about a month, although since the assignement overlapped the holidays I only worked on it for about two weeks. All of the source code outside of SDL was written entirely by me. My goal was to create the first four levels of the original The Legend of Zelda game for the NES, including the starting cave where you retrieve the sword.</p><p>Further information about the project and development process can be found in the project github repo (linked to the right). Disclaimer: This was created very early on in my C++ education, and the code might not be up to my current standard.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
+
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>Engine</strong>: SDL2</li><li><strong>Language</strong>: C++</li><li><strong>Platform(s)</strong>: Windows 10</li><li><strong>Input</strong>: Keyboard</li></ul>
+                    <a target='blank' class='readmore' href='https://github.com/meNotLucky/Zelda-in-SDL'><strong>Website</strong></a>
+                  </div></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div></section><!-- End Portfolio Section -->    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <form class="resume-form" action="files/Lukas_Clausson_CV.pdf" method="get" target="_blank" data-aos="fade-up">
+          <button class="resume-button" type="submit">Download Full Resume</button>
+        </form>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
+
+            <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>2020 - Present</h5>
+              <p><em>Self-Employed</em></p>
+              <p>In 2020 I started my own firm where I take on contracts for a multitude of things, including software and web development. This is also how I fund my personal projects.</p>
+              <ul>
+                <li>Currently Developing a Level Generator and API for Unity3D. <br/><i>October 2020 - Present</i></li>
+                <li>Developed a Glossary WordPress plugin for Effektfullt AB. <br/><i>November 2020</i></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="resume-title">Education</h3>
+
+            <div class="resume-item">
+              <h4>Bachelor's in Game Design &amp; Programming</h4>
+              <h5>2018 - 2021</h5>
+              <p><em>Uppsala University, Campus Gotland, Visby</em></p>
+              <p>The Bachelor's Programme in Game Design and Programming provides skills in developing games for commercial production, as well as a deeper understanding of how games work and how they affect us.</p>
+              <ul>
+                <li>2nd price for best level design with Of the Sky. <br/><i>GGC 2020</i></li>
+                <li>2nd price for best presentation with Of the Sky. <br/><i>GGC 2020</i></li>
+                <li>Nomination for Best Arcade with Colossal Chaos. <br/><i>GGC 2019</i></li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>High School Diploma, Application Development</h4>
+              <h5>2015 - 2018</h5>
+              <p><em>Thorén Innovation School, Gothenburg</em></p>
+              <p>The technical programme includes multiple courses in engineering, design and web / application development. In addition to these, I took extra programming and web server development courses.</p>
+              <ul>
+                <li>Started and developed a UF Company (Young Entrepreneurship). <br/><i>2015</i></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+        <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Languages & Software</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/c-sharp.svg">C# <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><i class='bx-fw bx bxl-c-plus-plus'></i>C / C++ <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><i class='bx-fw bx bxl-javascript' ></i>JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><i class='bx-fw bx bxl-nodejs' ></i>NodeJS <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/php.svg">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><i class='bx-fw bx bxl-html5'></i>HTML / <i class='bx-fw bx bxl-css3' ></i>CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/sql.svg">MySQL <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/unity.svg">Unity 3D <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/unreal.svg">Unreal Engine 4 <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/SDL.svg">SDL <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"></i><i class='bx-fw bx bxl-git' ></i>GIT <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/vs.svg">Visual Studio <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><img class="bx-fw cu-ic" src="images/icons/rider.svg">JetBrains Rider <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><i class='bx-fw bx bxl-adobe' ></i>Adobe Suite <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+    
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="images/headshot_2.jpg" class="img-fluid rounded-3" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Hi there!</h3>
+            <p class="fst-italic">
+              My name is Lukas Clausson. I was born in 1999 and grew up with my family in Gothenburg, Sweden. My interest in games and technology started at an early age, but really took off when I was around 12 years old. I had saved up to buy my first computer, which (to my mothers great dismay) I immediately took apart to figure out the inner workings and puzzle that it is. I did manage to put it back together though.
+              <br/><br/>
+              Games have always been a big part of my life. I remember getting lost for hours in beautiful RPGs with amazing stories, as well as the satisfaction of getting to the highest prestige in multiplayer FPS games. But I never really concidered creating games as a career until pretty late in my educational life.
+              <br/><br/>
+              In high school I studied design and web development. But in the third year I started messing around with application programming, and eventually found my way into Unity3D where I learned C#. I immediately got hooked on the thought of making my own games for a living, and after graduating high school I went on to study Game Design and Programming at Uppsala University, Campus Gotland. This was the start of my game creation journey.
+            </p>
+            <!-- <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>18 February 1999</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                </ul>
+              </div>
+            </div> -->
+            <p>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Facts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+        
+            <div class="section-title">
+                <h2>Contact</h2>
+                <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+            </div>
+            
+            <div class="row" data-aos="fade-in">
+            
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Sockenvägen 369A, Stockholm, Sweden</p>
+                        </div>
+                
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>lukas.clausson@hotmail.com</p>
+                        </div>
+                
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+46 730 768 736</p>
+                        </div>
+                
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2037.9875801877822!2d18.072020716153094!3d59.283062021773326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f782befaff9a3%3A0x39b1b51722e29e99!2sSockenv%C3%A4gen%20369A%2C%20122%2063%20Enskede!5e0!3m2!1ssv!2sse!4v1618955742858!5m2!1ssv!2sse" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+                </div>
+            
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form id="form" class="php-email-form">
+                        <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="name">Your Email</label>
+                            <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                    <!-- <div class="form-center">
+                      <div class="form-container border rounded">
+                        <form id="form">
+                            <div class="mb-3">
+                                <label class="form-label" for="name">Name:</label>
+                                <input required class="form-control" type="text" id="name" name="name">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <label class="form-label" for="email">Email:</label>
+                              <input required class="form-control" type="text" id="email" name="email">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <label class="form-label" for="subject">Subject:</label>
+                              <input required class="form-control" type="text" id="subject" name="subject">
+                            </div>
+                            <div class="mb-3">
+                                <label required class="form-label" for="info">More Information:</label>
+                                <textarea class="form-control" id="info" name="info"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main --><!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="copyright">
+    &copy; Copyright <strong><span>iPortfolio</span></strong>
+  </div>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+</footer><!-- End  Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/owl/owl.carousel.min.js"></script>
+<script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+<!-- Email Form  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+<!-- <script async>
+  document.getElementById("form").addEventListener("submit", this.onSubmit);
+
+  async function onSubmit() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      try {
+          await axios.post(
+              '/.netlify/functions/sendgrid',
+              {
+                  subject: subject,
+                  message: `<br>` + "Name: " + name + `<br>` + "Email: " + email + `<br>` + `<br>` + message
+              }
+          )
+      } catch (e) {
+          console.error(e)
+          alert('Your message could not be sent. Sorry about that.')
+          return;
+      }
+
+      document.querySelector('.sent-message').classList.add('d-block');
+      document.reset(); 
+  }
+</script> -->
+
+<script async>
+  document.getElementById("form").addEventListener("submit", this.onSubmit);
+
+  async function onSubmit() {
+
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      try {
+          await axios.post(
+              '/.netlify/functions/sendgrid',
+              {
+                  subject: subject,
+                  message: `<br>` + "Name: " + name + `<br>` + "Email: " + email + `<br>` + `<br>` + message
+              }
+          )
+      } catch (e) {
+          console.error(e)
+          alert('Your message could not be sent. Sorry about that.')
+      }
+  }
+</script>
+<script>
+  $(document).ready(function(){
+    $('.ofthesky-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.homemaker-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.cc-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.levelgen-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.zelda-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+<!-- Template Main JS File -->
+<script src='assets/js/main.js'></script>
 
 </body>
 

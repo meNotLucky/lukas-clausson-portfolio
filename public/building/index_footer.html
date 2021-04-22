@@ -1,0 +1,87 @@
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="copyright">
+    &copy; Copyright <strong><span>iPortfolio</span></strong>
+  </div>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+</footer><!-- End  Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/owl/owl.carousel.min.js"></script>
+<script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+<!-- Email Form  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+<!-- <script async>
+  document.getElementById("form").addEventListener("submit", this.onSubmit);
+
+  async function onSubmit() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      try {
+          await axios.post(
+              '/.netlify/functions/sendgrid',
+              {
+                  subject: subject,
+                  message: `<br>` + "Name: " + name + `<br>` + "Email: " + email + `<br>` + `<br>` + message
+              }
+          )
+      } catch (e) {
+          console.error(e)
+          alert('Your message could not be sent. Sorry about that.')
+          return;
+      }
+
+      document.querySelector('.sent-message').classList.add('d-block');
+      document.reset(); 
+  }
+</script> -->
+
+<script async>
+  document.getElementById("form").addEventListener("submit", this.onSubmit);
+
+  async function onSubmit() {
+
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      try {
+          await axios.post(
+              '/.netlify/functions/sendgrid',
+              {
+                  subject: subject,
+                  message: `<br>` + "Name: " + name + `<br>` + "Email: " + email + `<br>` + `<br>` + message
+              }
+          )
+      } catch (e) {
+          console.error(e)
+          alert('Your message could not be sent. Sorry about that.')
+      }
+  }
+</script>
