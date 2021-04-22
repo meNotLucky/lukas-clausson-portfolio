@@ -528,6 +528,14 @@ section {
   border-radius: 4px;
 }
 
+@media (max-width: 575px) {
+  .resume .resume-button {
+    position: relative;
+    padding: 7px 12px;
+    top: -15px;
+  }
+}
+
 .resume .resume-button:hover {
   background: #9b9b9b;
 }
