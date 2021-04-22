@@ -1,2 +1,4 @@
 #!/bin/bash
-php index_builder.php
+php building/index_builder.php
+
+# read -n 1 -s -r -p "Done!"

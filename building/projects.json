@@ -1,0 +1,184 @@
+[
+    {
+        "title" : "Of The Sky",
+        "id": "ofthesky",
+        "filter": "student-games",
+        "position" : "Lead Programmer & Technical Artist",
+        "text" :
+        {
+            "p1" : "Of the Sky is a third person 3D exploration and puzzle solving game. It takes place in a floating island world inspired by the beautiful scenery found on the Swedish island of Gotland. Using the easy to understand mechanics, explore the many floating islands, solve puzzles, and try to uncover the mystery of the fire keeping the islands afloat in the sky! You play as Hymn, a mysterious spirit-like creature whose motives are unknown, but who you can’t help but want to help guide.",
+            "p2" : "In the development of the game my responsibilities included gameplay programming, system building, UI programming, aduio programming, shader programming, performance optimization and more. I also spent a lot of time working with the lighting and VFX.",
+            "p3" : "Most of my time went into the gameplay programming and the game feel. I decided to code all of the animations in the game rather than having the artists animating their models, as it gave us much more flexibility. With the system I built, non-programmer members of the team could themselves go in and change the properties of the animations dynamically during gameplay to see what would fit the best. This saved us a lot of time on redoing animations and such.",
+            "p4" : "Of the Sky was developed in 8 weeks as part of the vertical slice course at Uppsala University and was displayed at <a href='https://itch.io/jam/gotland-game-conference-2020/rate/627412' target='blank'>GGC 2020</a> where it placed second in presentation and level design, as well as top 10 in all other categories."
+        },
+        "trailer" : "https://www.youtube.com/watch?v=QUMXtxb2AQs",
+        "website" : "https://unbookables.itch.io/of-the-sky",
+        "quote" :
+        {
+            "text" : "All in all it looks, sounds and feels great. For the few weeks of this project, it's impressive to see what you were able to get together, and with this amount of polish that you had time to get in there as well.",
+            "author" : "Joakim Enigk Sjöberg",
+            "author_title" : "Technical Sound Designer at Hazelight",
+            "author_img" : "images/joakim.jpg"
+        },
+        "splash" : "images/ofthesky/ofthesky_splash.jpg",
+        "screenshots" :
+        {
+            "01" : "images/ofthesky/ofthesky_screen_01.jpg",
+            "02" : "images/ofthesky/ofthesky_screen_02.jpg",
+            "03" : "images/ofthesky/ofthesky_screen_03.jpg",
+            "04" : "images/ofthesky/ofthesky_screen_04.jpg",
+            "05" : "images/ofthesky/ofthesky_screen_05.jpg",
+            "06" : "images/ofthesky/ofthesky_screen_06.jpg",
+            "07" : "images/ofthesky/ofthesky_screen_07.jpg",
+            "08" : "images/ofthesky/ofthesky_screen_08.jpg",
+            "09" : "images/ofthesky/ofthesky_screen_09.jpg",
+            "10" : "images/ofthesky/ofthesky_screen_10.jpg"
+        },
+        "specs" :
+        {
+            "engine" : "Unreal Engine 4",
+            "language" : "C++ & Blueprints",
+            "platform" : "Windows 10",
+            "input" : "Gamepad, Mouse/Keyboard"
+        }
+        
+    },
+    {
+        "title" : "Happy Homemaker",
+        "id": "homemaker",
+        "filter": "student-games",
+        "position" : "Programmer, Technical Artist & Designer",
+        "text" :
+        {
+            "p1" : "Happy Homemaker is a third person side scrolling 3D single player game with puzzle, exploration, and narrative elements. It’s the 1950’s and you play as a female trapped in a surreal house. You are on a quest of trying to find a way out. However, the house would rather see you dead than free.",
+            "p2" : "Happy Homemaker was developed over the course of three months, but due to outside work most of the actual game was created over only two weeks. It was displayed at <a href='https://itch.io/jam/gotland-game-conference-2020/rate/639941' target='blank'>GGC 2020</a>."
+        },
+        "trailer" : "https://www.youtube.com/watch?v=p1SUtTDGZnY",
+        "website" : "https://catbotcrew.itch.io/homemaker",
+        "quote" :
+        {
+            "text" : "The audio from the radio was super well done! The art really did make it feel like an old 50's american dream style game. Great job! :) Would love to experience more in the world!” <br><br> “Great 3D graphic and style that sets the mood of the game directy. The animations of the character and radio was vivid and smooth.",
+            "author" : "Anonymous Playtesters",
+            "author_title" : "",
+            "author_img" : "images/unnamed.png"
+        },
+        "splash" : "images/happyhomemaker/happyhomemaker_splash.jpg",
+        "screenshots" :
+        {
+            "01" : "images/happyhomemaker/happyhomemaker_screen_01.jpg",
+            "02" : "images/happyhomemaker/happyhomemaker_screen_02.jpg",
+            "03" : "images/happyhomemaker/happyhomemaker_screen_03.jpg",
+            "04" : "images/happyhomemaker/happyhomemaker_screen_04.jpg",
+            "05" : "images/happyhomemaker/happyhomemaker_screen_05.jpg",
+            "06" : "images/happyhomemaker/happyhomemaker_screen_06.jpg"
+        },
+        "specs" :
+        {
+            "engine" : "Unreal Engine 4",
+            "language" : "C++ & Blueprints",
+            "platform" : "Windows 10",
+            "input" : "Mouse/Keyboard"
+        }
+        
+    },
+    {
+        "title" : "Colossal Chaos",
+        "id": "cc",
+        "filter": "student-games",
+        "position" : "Lead Programmer",
+        "text" :
+        {
+            "p1" : "A 3D destruction runner developed for the PC, where the player needs to save their village from a rampaging giant. The player jumps onto the shoulders of the giant and tries to steer the stampeding beast out of the village by twisting its head. Get ready for a dramatic ride filled with broken buildings, frightened farmers, and maybe a few crumbled cathedrals!",
+            "p2" : "My responsibilities during the development mainly included gameplay programming, system building and performance optimization.",
+            "p3" : "I spent a lot of time building and optimizing a destruction system where the giant would partially destroy buildings he would walk in to (as seen in the trailer). The system checks for structural points in each building and makes sure they are not all destroyed. If they are, the building completely collapses on itself. This prevents unnatural structures and floating pieces being left after the giant has partially destroyed the building.",
+            "p4" : "Colossal Chaos was created in 8 weeks during the Arcade course at Uppsala University, and was displayed at GGC 2019 where is was nominated for best arcade game."
+        },
+        "trailer" : "https://www.youtube.com/watch?v=fWSdPTjQqAU",
+        "website" : "https://www.colossalchaosgame.com/colossal%20chaos",
+        "quote" :
+        {
+            "text" : "I love this idea! The giants walk cycle is priceless and the game looks pretty to. It’s stupid fun and you managed to build an input that enhances the experience and at the same time create a game that could stand for itself.",
+            "author" : "Danielle Unéus",
+            "author_title" : "COO & Producer at Eat Create Sleep",
+            "author_img" : "images/danielle.jpg"
+        },
+        "splash" : "images/colossalchaos/colossalchaos_splash.jpg",
+        "screenshots" :
+        {
+            "01" : "images/colossalchaos/colossalchaos_screen_01.jpg",
+            "02" : "images/colossalchaos/colossalchaos_screen_02.jpg",
+            "03" : "images/colossalchaos/colossalchaos_screen_03.jpg",
+            "04" : "images/colossalchaos/colossalchaos_screen_04.jpg",
+            "05" : "images/colossalchaos/colossalchaos_screen_05.jpg",
+            "06" : "images/colossalchaos/colossalchaos_screen_06.jpg",
+            "07" : "images/colossalchaos/colossalchaos_screen_07.jpg"
+        },
+        "specs" :
+        {
+            "engine" : "Unity 3D",
+            "language" : "C# (MonoBehaviour)",
+            "platform" : "Windows 10",
+            "input" : "Custom Built Giant Head"
+        }
+    },
+    {
+        "title" : "Level Generator for Unity3D",
+        "id": "levelgen",
+        "filter": "personal-projects",
+        "position" : "",
+        "text" :
+        {
+            "p1" : "This is my latest project, and what I am currently working on during my free time. It is a static level generator with a custom UI built in C# (.NET and MonoBehaviour) for Unity3D.",
+            "p2" : "The API currently features vertical and horizontal generation, control over both induvidual cell and level transformation, custom rooms with many options, a custom easy-to-use UI, dynamic level caching for a good workflow between levels, and a lot more.",
+            "p3" : "Once the project is in a releasable state, it will be put up on the Unity Asset Store. For a full (still work in progress) API-documentation, head over to the project git repo linked to the right."
+        },
+        "trailer" : "",
+        "website" : "https://github.com/meNotLucky/GridLevelGenerator",
+        "quote" : "",
+        "splash" : "images/levelgen/splash.png",
+        "screenshots" :
+        {
+            "01" : "images/levelgen/screen_01.png",
+            "02" : "images/levelgen/screen_02.png",
+            "03" : "images/levelgen/screen_03.png"
+        },
+        "specs" :
+        {
+            "engine" : "Unity3D",
+            "language" : "C# (.NET & MonoBehaviour)",
+            "platform" : "",
+            "input" : ""
+        }
+    },
+    {
+        "title" : "Zelda in SDL",
+        "id": "zelda",
+        "filter": "personal-projects",
+        "position" : "",
+        "text" :
+        {
+            "p1" : "This is a school project from the first year of Game design and programming at Uppsala University. The specific course is Game Programming 1. It turned into a bigger project than I expected, but I had a lot of fun with it.",
+            "p2" : "The task was to recreate a classic game in about a month, although since the assignement overlapped the holidays I only worked on it for about two weeks. All of the source code outside of SDL was written entirely by me. My goal was to create the first four levels of the original The Legend of Zelda game for the NES, including the starting cave where you retrieve the sword.",
+            "p3" : "Further information about the project and development process can be found in the project github repo (linked to the right). Disclaimer: This was created very early on in my C++ education, and the code might not be up to my current standard."
+        },
+        "trailer" : "",
+        "website" : "https://github.com/meNotLucky/Zelda-in-SDL",
+        "quote" : "",
+        "splash" : "images/zelda/splash.png",
+        "screenshots" :
+        {
+            "01" : "images/zelda/screen_01.png",
+            "02" : "images/zelda/screen_02.png",
+            "03" : "images/zelda/screen_03.png",
+            "04" : "images/zelda/screen_04.png",
+            "05" : "images/zelda/screen_05.png"
+        },
+        "specs" :
+        {
+            "engine" : "SDL2",
+            "language" : "C++",
+            "platform" : "Windows 10",
+            "input" : "Keyboard"
+        }
+    }
+]
