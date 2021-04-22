@@ -1157,7 +1157,6 @@ section {
 
 .modal {
   z-index: 9999;
-  /* left: unset; */
 }
 
 .modal-content {
@@ -1167,9 +1166,10 @@ section {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
 
-.modal-dialog {
-  /* left: 0; */
-  /* margin: unset; */
+@media (min-width: 1200px) {
+  .modal-dialog {
+    left: 150px
+  } 
 }
 
 .modal-backdrop {
