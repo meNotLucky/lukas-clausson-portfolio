@@ -95,7 +95,7 @@ $page_content .=
                 <div class='col-lg-8'>
 
                   <div class='owl-carousel {$proj->id}-owl owl-theme owl-loaded'>";
-if($proj->trailer != "")
+if($proj->trailer != null)
 {
   $page_content .= "
                     <div class='item-video' data-merge='3'>
@@ -130,23 +130,23 @@ $page_content .=
                   <div class='portfolio-info'>
                     <h3>Project information</h3>
                     <ul>";
-if($proj->position != "")
+if($proj->position != null)
 {
   $page_content .=   "<li><strong>My Position</strong>: {$proj->position}</li>";
 }
-if($proj->specs->engine != "")
+if($proj->specs->engine != null)
 {
   $page_content .=   "<li><strong>Engine</strong>: {$proj->specs->engine}</li>";
 }
-if($proj->specs->language != "")
+if($proj->specs->language != null)
 {
   $page_content .=   "<li><strong>Language</strong>: {$proj->specs->language}</li>";
 }
-if($proj->specs->platform != "")
+if($proj->specs->platform != null)
 {
   $page_content .=   "<li><strong>Platform(s)</strong>: {$proj->specs->platform}</li>";
 }
-if($proj->specs->input != "")
+if($proj->specs->input != null)
 {
   $page_content .=   "<li><strong>Input</strong>: {$proj->specs->input}</li>";
 }
@@ -155,7 +155,7 @@ $page_content .=
                     <a target='blank' class='readmore' href='{$proj->website}'><strong>Website</strong></a>
                   </div>";
 
-if($proj->quote != "")
+if($proj->quote != null)
 {
   $page_content .=
                  "<section id='testimonials' class='testimonials'>
@@ -169,6 +169,14 @@ if($proj->quote != "")
                       <h3>{$proj->quote->author}</h3>
                       <h4>{$proj->quote->author_title}</h4>
                     </div>
+                  </section>";
+}
+
+if($proj->extra != null)
+{
+  $page_content .=
+                 "<section id='extra' class='extra'>
+                    {$proj->extra}
                   </section>";
 }
 
