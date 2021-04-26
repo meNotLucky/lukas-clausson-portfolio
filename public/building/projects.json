@@ -180,5 +180,33 @@
             "platform" : "Windows 10",
             "input" : "Keyboard"
         }
+    },
+    {
+        "title" : "ScheduleBone Discord Bot",
+        "id": "schedulebone",
+        "filter": "personal-projects",
+        "position" : "",
+        "text" :
+        {
+            "p1" : "This is a discord bot I made in my spare time. At first, it was made as a tool to use for scheduling whilst developing 'Of the Sky' as we hade to develop the game at distance. But then I wanted to take it a bit further and release it for the public.",
+            "p2" : "The bot is far from advanced, its main functionality at this time is setting and storing the time zone of the channel it's in, and then adapting that time zone when the user calls the !sb-alarm function so that the bot can work from anywhere in the world.",
+            "p3" : "I have a lot of plans for further functionality, including adding timers, adding alarms with specific time zones, adding daily/weekly/monthly/yearly alarms and much more. But for now I'm very happy with how it turned out."
+        },
+        "trailer" : "",
+        "website" : "https://top.gg/bot/694152126359666728",
+        "quote" : "",
+        "splash" : "images/schedulebone/splash.png",
+        "screenshots" :
+        {
+            "01" : "images/schedulebone/screen_01.png",
+            "02" : "images/schedulebone/screen_02.png",
+            "03" : "images/schedulebone/screen_03.png"
+        },
+        "specs" :
+        {
+            "engine" : "Node.js (Discord.js)",
+            "language" : "JavaScript",
+            "platform" : "Discord"
+        }
     }
 ]

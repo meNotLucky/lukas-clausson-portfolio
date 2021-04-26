@@ -141,6 +141,14 @@
           </div>
         </button>
         <h5 style='margin-top: 10px;'>Zelda in SDL</h5>
+      </div><div class='col-lg-4 col-md-6 portfolio-item filter-personal-projects'>
+        <button data-bs-toggle='modal' data-bs-target='#schedulebone' class='portfolio-wrap'>
+          <img src='images/schedulebone/splash.png' class='img-fluid rounded-3' alt=''>
+          <div class='portfolio-links'>
+            <i class='bx bx-window-open bx-md'></i>
+          </div>
+        </button>
+        <h5 style='margin-top: 10px;'>ScheduleBone Discord Bot</h5>
       </div></div>
   </div><div class='modal fade' id='ofthesky' tabindex='-1' aria-labelledby='oftheskyLabel' aria-hidden='true'>
     <div class='modal-dialog modal-xl'>
@@ -362,6 +370,40 @@
                     <h3>Project information</h3>
                     <ul><li><strong>Engine</strong>: SDL2</li><li><strong>Language</strong>: C++</li><li><strong>Platform(s)</strong>: Windows 10</li><li><strong>Input</strong>: Keyboard</li></ul>
                     <a target='blank' class='readmore' href='https://github.com/meNotLucky/Zelda-in-SDL'><strong>Website</strong></a>
+                  </div></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div><div class='modal fade' id='schedulebone' tabindex='-1' aria-labelledby='scheduleboneLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-xl'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='scheduleboneLabel'>ScheduleBone Discord Bot</h5>
+          <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+        </div>
+        <div class='modal-body'>
+
+          <section id='portfolio-details' class='portfolio-details'>
+            <div class='container'>
+
+              <div class='row gy-4'>
+
+                <div class='col-lg-8'>
+
+                  <div class='owl-carousel schedulebone-owl owl-theme owl-loaded'><img src='images/schedulebone/screen_01.png' alt='Image' class='item'><img src='images/schedulebone/screen_02.png' alt='Image' class='item'><img src='images/schedulebone/screen_03.png' alt='Image' class='item'></div>
+                  <div class='portfolio-description'>
+                    <p><p>This is a discord bot I made in my spare time. At first, it was made as a tool to use for scheduling whilst developing 'Of the Sky' as we hade to develop the game at distance. But then I wanted to take it a bit further and release it for the public.</p><p>The bot is far from advanced, its main functionality at this time is setting and storing the time zone of the channel it's in, and then adapting that time zone when the user calls the !sb-alarm function so that the bot can work from anywhere in the world.</p><p>I have a lot of plans for further functionality, including adding timers, adding alarms with specific time zones, adding daily/weekly/monthly/yearly alarms and much more. But for now I'm very happy with how it turned out.</p></p>
+                  </div>
+                </div>
+                <div class='col-lg-4'>
+
+                  <div class='portfolio-info'>
+                    <h3>Project information</h3>
+                    <ul><li><strong>Engine</strong>: Node.js (Discord.js)</li><li><strong>Language</strong>: JavaScript</li><li><strong>Platform(s)</strong>: Discord</li></ul>
+                    <a target='blank' class='readmore' href='https://top.gg/bot/694152126359666728'><strong>Website</strong></a>
                   </div></div>
               </div>
             </div>
@@ -707,29 +749,6 @@
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
-                    <!-- <div class="form-center">
-                      <div class="form-container border rounded">
-                        <form id="form">
-                            <div class="mb-3">
-                                <label class="form-label" for="name">Name:</label>
-                                <input required class="form-control" type="text" id="name" name="name">
-                            </div>
-                            <div class="mb-3 form-check">
-                              <label class="form-label" for="email">Email:</label>
-                              <input required class="form-control" type="text" id="email" name="email">
-                            </div>
-                            <div class="mb-3 form-check">
-                              <label class="form-label" for="subject">Subject:</label>
-                              <input required class="form-control" type="text" id="subject" name="subject">
-                            </div>
-                            <div class="mb-3">
-                                <label required class="form-label" for="info">More Information:</label>
-                                <textarea class="form-control" id="info" name="info"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -885,6 +904,21 @@
 <script>
   $(document).ready(function(){
     $('.zelda-owl').owlCarousel({
+      items:1,
+      merge:true,
+      loop:true,
+      margin:10,
+      video:true,
+      lazyLoad:true,
+      center:true,
+      nav:true
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.schedulebone-owl').owlCarousel({
       items:1,
       merge:true,
       loop:true,
