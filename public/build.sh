@@ -1,1 +1,0 @@
-php building/index_builder.php

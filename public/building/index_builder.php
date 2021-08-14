@@ -1,36 +1,51 @@
 <?php
 
 // Get index_header.html
-$header = file_get_contents('building/index_header.html');
+$header = file_get_contents('public/building/index_header.html');
 if(!$header) {
   printf("index_header could not be read!\n");
   sleep(10);
   return;
 }
-
-$page_content .= $header;
 printf("Read index_header...\n");
 
 // Read Projects JSON
-$projects_data = file_get_contents('building/projects.json');
+$projects_data = file_get_contents('public/building/projects.json');
 if(!$projects_data) {
   printf("projects.json could not be read!\n");
   sleep(10);
   return;
 }
-
 printf("Read projects.json...\n");
 
 $projects = json_decode($projects_data);
-if($projects == null)
+if(!isset($projects))
 {
   printf("Data could not be decoded from projects.json!\n");
   sleep(10);
   return;
 }
-
 printf("Decoded projects from JSON data...\n");
 
+// Get index_main.html
+$main = file_get_contents('public/building/index_main.html');
+if(!$main) {
+  printf("index_main could not be read!\n");
+  sleep(10);
+  return;
+}
+printf("Read index_main...\n");
+
+// Get index_footer.html
+$footer = file_get_contents('public/building/index_footer.html');
+if(!$footer) {
+  printf("index_footer could not be read!\n");
+  sleep(10);
+  return;
+}
+printf("Read index_footer...\n");
+
+$page_content = $header;
 $page_content .=
 "<section id='portfolio' class='portfolio'>
   <div class='container'>
@@ -95,7 +110,7 @@ $page_content .=
                 <div class='col-lg-8'>
 
                   <div class='owl-carousel {$proj->id}-owl owl-theme owl-loaded'>";
-if($proj->trailer != null)
+if(isset($proj->trailer))
 {
   $page_content .= "
                     <div class='item-video' data-merge='3'>
@@ -130,23 +145,23 @@ $page_content .=
                   <div class='portfolio-info'>
                     <h3>Project information</h3>
                     <ul>";
-if($proj->position != null)
+if(isset($proj->position))
 {
   $page_content .=   "<li><strong>My Position</strong>: {$proj->position}</li>";
 }
-if($proj->specs->engine != null)
+if(isset($proj->specs->engine))
 {
   $page_content .=   "<li><strong>Engine</strong>: {$proj->specs->engine}</li>";
 }
-if($proj->specs->language != null)
+if(isset($proj->specs->language))
 {
   $page_content .=   "<li><strong>Language</strong>: {$proj->specs->language}</li>";
 }
-if($proj->specs->platform != null)
+if(isset($proj->specs->platform))
 {
   $page_content .=   "<li><strong>Platform(s)</strong>: {$proj->specs->platform}</li>";
 }
-if($proj->specs->input != null)
+if(isset($proj->specs->input))
 {
   $page_content .=   "<li><strong>Input</strong>: {$proj->specs->input}</li>";
 }
@@ -155,7 +170,7 @@ $page_content .=
                     <a target='blank' class='readmore' href='{$proj->website}'><strong>Website</strong></a>
                   </div>";
 
-if($proj->quote != null)
+if(isset($proj->quote))
 {
   $page_content .=
                  "<section id='testimonials' class='testimonials'>
@@ -172,7 +187,7 @@ if($proj->quote != null)
                   </section>";
 }
 
-if($proj->extra != null)
+if(isset($proj->extra))
 {
   $page_content .=
                  "<section id='extra' class='extra'>
@@ -197,27 +212,9 @@ $page_content .=
 
 printf("Generated projects from JSON data...\n");
 
-// Get index_main.html
-$main = file_get_contents('building/index_main.html');
-if(!$main) {
-  printf("index_main could not be read!\n");
-  sleep(10);
-  return;
-}
-
 $page_content .= $main;
-printf("Read index_main...\n");
-
-// Get index_footer.html
-$footer = file_get_contents('building/index_footer.html');
-if(!$footer) {
-  printf("index_footer could not be read!\n");
-  sleep(10);
-  return;
-}
 
 $page_content .= $footer;
-printf("Read index_footer...\n");
 
 // Generate owl-carousel scripts
 
@@ -253,11 +250,13 @@ $page_content .=
 
 printf("Generated JS scripts...\n");
 
-if(file_put_contents('index.html', $page_content) == false) {
+if(file_put_contents('public/index.html', $page_content) == false) {
   printf("Index could not be created!\n");
   sleep(10);
   return;
 }
+
+echo "\n";
 
 printf("Index was created!\n");
 
