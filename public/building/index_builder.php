@@ -52,15 +52,16 @@ $page_content .=
 
     <div class='section-title'>
       <h2>Portfolio</h2>
-      <p>Hello! My name is Lukas and this is my portfolio. Here you can find all the games and projects I've worked on. You will also find a bit of information about me and what I do, my previous experiences, my skills and links to my social media.<br /><br />Welcome to my page! Feel free to look around.<br />// Lukas <i class='bx bxs-heart' ></i></p>
+      <p>Hello! My name is Lukas and this is my portfolio. Here you can find all the games and projects I've worked on. You will also find a bit of information about me and what I do, my previous experiences, my skills and links to my social media. Thank you for visiting!<br /><br />All the best<br /><div class='signature'>// Lukas</div></i></p>
     </div>
 
     <div class='row' data-aos='fade-up'>
       <div class='col-lg-12 d-flex justify-content-center'>
         <ul id='portfolio-flters'>
-          <li data-filter='*' class='filter-active'>All</li>
-          <li data-filter='.filter-student-games'>Student Games</li>
-          <li data-filter='.filter-personal-projects'>Personal Projects</li>
+          <li data-filter='*' class='filter-active'>All Work</li>
+          <li data-filter='.filter-professional-projects'>Professional Work</li>
+          <li data-filter='.filter-personal-projects'>Personal Work</li>
+          <li data-filter='.filter-student-games'>Student Work</li>
         </ul>
       </div>
     </div>
@@ -140,7 +141,7 @@ $page_content .=
                    "</p>
                   </div>
                 </div>
-                <div class='col-lg-4'>
+                <div class='col-lg-4 modal-sidecard'>
 
                   <div class='portfolio-info'>
                     <h3>Project information</h3>

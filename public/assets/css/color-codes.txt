@@ -1,0 +1,10 @@
+gold: #d7ba5f
+blue: #9cdcfe
+dark blue: #368cd6
+brown: #ce9178
+green: #8bb061
+pink: #bb86a1
+
+grey-1: #1f1f1f
+grey-2: #181818
+black-1: #010409

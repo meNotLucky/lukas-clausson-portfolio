@@ -9,23 +9,28 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
+  font-family: Consolas, 'Courier New', monospace;
+  color: #ce9178;
+  background-color: #181818;
 }
 
 a {
-  color: #149ddd;
+  color: #bb86a1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #fff;
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+.signature {
+  color: #8bb061;
 }
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -91,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -155,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #bb86a1;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -165,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #bb86a1;
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
@@ -213,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 25vh;
-  background: url("../../images/ofthesky/ofthesky_screen_02.jpg") top center;
+  background: url("../../images/miasma/miasma_header.jpg") top center;
   background-size:cover;
 }
 
@@ -232,32 +237,34 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 280px;
+  /* min-width: 280px; */
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   #hero .hero-container {
     margin-left: 300px;
   }
-}
+} */
 
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #d7ba5f;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #hero p {
   color: #fff;
   margin-bottom: 0px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #hero p span {
-  color: #fff;
+  color: #d7ba5f;
+  background-color: rgba(0, 0, 0, 0.7);
   padding-bottom: 4px;
   letter-spacing: 1px;
   /* border-bottom: 3px solid #149ddd; */
@@ -274,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #hero p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -287,10 +294,11 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background: #1f1f1f;
 }
 
 .section-bg {
-  background: rgb(243, 243, 243);
+  background: #181818;
 }
 
 .section-title {
@@ -303,7 +311,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #000;
+  color: #d7ba5f;
 }
 
 .section-title h2::after {
@@ -312,7 +320,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #000;
+  background: #d7ba5f;
   bottom: 0;
   left: 0;
 }
@@ -327,7 +335,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #292929;
+  /* color: #292929; */
 }
 
 .about .content ul {
@@ -399,7 +407,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   transition: ease-in-out 0.3s;
 }
 
@@ -423,9 +431,13 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-size: 1.4rem;
-  color: #000;
+  color: #9cdcfe;
+}
+
+.skill > img {
+  filter: invert(78%) sepia(15%) saturate(1600%) hue-rotate(179deg) brightness(107%) contrast(99%);
 }
 
 .skills .progress .skill .val {
@@ -434,7 +446,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dcdcdc;
+  background: #000;
   height: 3px;
 }
 
@@ -453,7 +465,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #000;
+  color: #9cdcfe;
 }
 
 .resume .resume-item {
@@ -473,14 +485,15 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #000;
+  /* font-family: "Poppins", sans-serif; */
+  color: #9cdcfe;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #fff;
+  background: #000;
+  color: #8bb061;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -507,7 +520,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #d7ba5f;
   border: 2px solid #000;
 }
 
@@ -522,7 +535,7 @@ section {
   top: -100px;
   background: #292929;
   padding: 10px 24px;
-  color: #fff;
+  color: #bb86a1;
   transition: 0.4s;
   border: 0;
   border-radius: 4px;
@@ -537,7 +550,8 @@ section {
 }
 
 .resume .resume-button:hover {
-  background: #9b9b9b;
+  background: #fff;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -547,12 +561,16 @@ section {
   margin-bottom: 30px;
 }
 
+.portfolio-item > h5 {
+  color: #9cdcfe;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: rgb(243, 243, 243);
+  background: #010409;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -565,13 +583,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #9b9b9b;
+  color: #bb86a1;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -579,6 +597,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  background-color: #1f1f1f;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -589,7 +608,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -610,6 +629,7 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
+  color: #fff;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
@@ -682,7 +702,8 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #1f1f1f;
+  color: #9cdcfe;
 }
 
 .portfolio-details .portfolio-info ul {
@@ -770,7 +791,9 @@ section {
 
 .testimonials {
   padding-top: 20px;
-  filter: drop-shadow(0px 0px 12px rgb(0 0 0 / 15%));}
+  /* filter: drop-shadow(0px 0px 12px rgb(0 0 0 / 15%)); */
+  background: #181818;
+}
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -788,17 +811,16 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #9cdcfe;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #9cdcfe;
   margin: 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #000;
   font-size: 26px;
 }
 
@@ -819,7 +841,7 @@ section {
   font-style: italic;
   /* margin: 0 15px 15px 15px; */
   padding: 30px;
-  background: #fff;
+  background: #1f1f1f;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -830,7 +852,7 @@ section {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #fff;
+  border-top: 20px solid #1f1f1f;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -849,11 +871,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #bb86a1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #bb86a1;
 }
 
 /*--------------------------------------------------------------
@@ -865,18 +887,18 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #181818;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #292929;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: rgb(243, 243, 243);
+  background: #292929;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -889,14 +911,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #9cdcfe;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #ce9178;
 }
 
 .contact .info .email p {
@@ -923,19 +945,25 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #292929;
-  color: #fff;
+  background: rgb(243, 243, 243);
+  color: #292929;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #292929;
-  color: #fff;
+  background: rgb(243, 243, 243);
+  color: #292929;
+}
+
+.form-control {
+  color: #ce9178;
+  background-color: #1f1f1f;
+  border: none;
 }
 
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #181818;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -999,12 +1027,18 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: #8bb061;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+}
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  color: #ce9178;
+  background: #1f1f1f;
 }
 
 .contact .php-email-form input {
@@ -1019,13 +1053,14 @@ section {
   background: #292929;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #bb86a1;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #9b9b9b;
+  background: #fff;
+  color: #000;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1177,11 +1212,16 @@ section {
   z-index: 9999;
 }
 
+.modal-title {
+  color: #d7ba5f;
+}
+
 .modal-content {
   border: none;
   border-radius: 5px;
   margin: 1.75rem auto;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  background-color: #1f1f1f;
 }
 
 @media (min-width: 1200px) {
@@ -1197,6 +1237,11 @@ section {
 .modal-header {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.modal-sidecard
+{
+  background-color: #181818;
 }
 
 
@@ -1253,7 +1298,7 @@ section {
 }
 
 .owl-nav button span {
-  margin-top: -8px;
+  margin-top: -4px;
   display: flex;
   align-items: center;
 }
@@ -1263,7 +1308,7 @@ section {
 }
 
 .owl-prev span {
-  margin-left: 14px;
+  margin-left: 12px;
 }
 
 .owl-next {
@@ -1271,11 +1316,14 @@ section {
 }
 
 .owl-next span {
-  margin-left: 16px;
+  margin-left: 13px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
-{
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot span {
   background: #000;
 }
 

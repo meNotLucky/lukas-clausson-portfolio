@@ -1,0 +1,38 @@
+{
+    "title" : "Happy Homemaker",
+    "id": "homemaker",
+    "filter": "student-games",
+    "position" : "Programmer, Technical Artist & Designer",
+    "text" :
+    {
+        "p1" : "Happy Homemaker is a third person side scrolling 3D single player game with puzzle, exploration, and narrative elements. It’s the 1950’s and you play as a female trapped in a surreal house. You are on a quest of trying to find a way out. However, the house would rather see you dead than free.",
+        "p2" : "Happy Homemaker was developed over the course of three months, but due to outside work most of the actual game was created over only two weeks. It was displayed at <a href='https://itch.io/jam/gotland-game-conference-2020/rate/639941' target='blank'>GGC 2020</a>."
+    },
+    "trailer" : "https://www.youtube.com/watch?v=p1SUtTDGZnY",
+    "website" : "https://catbotcrew.itch.io/homemaker",
+    "quote" :
+    {
+        "text" : "The audio from the radio was super well done! The art really did make it feel like an old 50's american dream style game. Great job! :) Would love to experience more in the world!” <br><br> “Great 3D graphic and style that sets the mood of the game directy. The animations of the character and radio was vivid and smooth.",
+        "author" : "Anonymous Playtesters",
+        "author_title" : "",
+        "author_img" : "images/unnamed.png"
+    },
+    "splash" : "images/happyhomemaker/happyhomemaker_splash.jpg",
+    "screenshots" :
+    {
+        "01" : "images/happyhomemaker/happyhomemaker_screen_01.jpg",
+        "02" : "images/happyhomemaker/happyhomemaker_screen_02.jpg",
+        "03" : "images/happyhomemaker/happyhomemaker_screen_03.jpg",
+        "04" : "images/happyhomemaker/happyhomemaker_screen_04.jpg",
+        "05" : "images/happyhomemaker/happyhomemaker_screen_05.jpg",
+        "06" : "images/happyhomemaker/happyhomemaker_screen_06.jpg"
+    },
+    "specs" :
+    {
+        "engine" : "Unreal Engine 4",
+        "language" : "C++ & Blueprints",
+        "platform" : "Windows 10",
+        "input" : "Mouse/Keyboard"
+    }
+    
+}
