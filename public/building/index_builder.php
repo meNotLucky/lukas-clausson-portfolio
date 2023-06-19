@@ -150,6 +150,10 @@ if(isset($proj->position))
 {
   $page_content .=   "<li><strong>My Position</strong>: {$proj->position}</li>";
 }
+if(isset($proj->specs->duration))
+{
+  $page_content .=   "<li><strong>Duration</strong>: {$proj->specs->duration}</li>";
+}
 if(isset($proj->specs->engine))
 {
   $page_content .=   "<li><strong>Engine</strong>: {$proj->specs->engine}</li>";

@@ -31,6 +31,7 @@
         },
         "specs" :
         {
+            "duration" : "2 Years",
             "engine" : "Unreal Engine 4",
             "language" : "C++ & Blueprints",
             "platform" : "PC, PS5, Xbox Series X|S",
@@ -75,6 +76,7 @@
         },
         "specs" :
         {
+            "duration" : "8 Weeks",
             "engine" : "Unreal Engine 4",
             "language" : "C++ & Blueprints",
             "platform" : "Windows 10",
@@ -116,6 +118,7 @@
         },
         "specs" :
         {
+            "duration" : "8 Weeks",
             "engine" : "Unity 3D",
             "language" : "C# (MonoBehaviour)",
             "platform" : "Windows 10",
@@ -142,6 +145,7 @@
         },
         "specs" :
         {
+            "duration" : "Ongoing",
             "engine" : "Unity3D",
             "language" : "C# (.NET & MonoBehaviour)"
         }
@@ -168,6 +172,7 @@
         },
         "specs" :
         {
+            "duration" : "2 Weeks",
             "engine" : "SDL2",
             "language" : "C++",
             "platform" : "Windows 10",
@@ -194,6 +199,7 @@
         },
         "specs" :
         {
+            "duration" : "Ongoing",
             "engine" : "Node.js (Discord.js)",
             "language" : "JavaScript",
             "platform" : "Discord"
