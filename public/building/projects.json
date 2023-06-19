@@ -7,7 +7,7 @@
         "text" :
         {
             "p1" : "Miasma Chronicles is a tactical turnbased RPG game, and a spiritual successor to the critically aclaimed Mutant Year Zero. In the game you travel around with a party of characters, taking on quests and exploring in realtime, whilst encountering and fighting enemies in turnbased combat. The dynamic swithcing between realtime and turnbased gameplay in combination with the RPG-elements and systems made this project challenging but incredibly rewarding.",
-            "p2" : "In the development of the game my responsibilities included gameplay programming, UI programming, API integration, optimization and more. Most of my time has been spent on UI programming, creating adaptable systems and working closely with our outsourced design team to bring their vision to life on the screen. This also allowed me to flex my creative muscles as I've gotten to design some of the elements and most of the UI animations myself.",
+            "p2" : "In the development of the game my responsibilities included gameplay programming, UI programming, API integration, optimization and more. Most of my time has been spent on UI programming, creating adaptable systems and working closely with our outsourced design team to bring their vision to life on the screen. This also allowed me to explore my creativity as I've gotten to design some of the elements and most of the UI animations myself.",
             "p3" : "Since the game was built for multiple platforms I've gained invaluable experience in working with platform specific API's, mainly for PC (where we launched on Steam, Epic Store and GOG) as well as the PlayStation 5. I have integrated achievements/trophies, as well as Activities on the PS5, but I also became very familiar with the full pipelines for each platform.",
             "p4" : "Code ownership has been an important part of my job during the project. I've learned to program expandable, flexible, and maintainable systems and how to integrate them into an already expansive code base."
         },
@@ -154,7 +154,7 @@
         {
             "p1" : "This is a school project from the first year of Game design and programming at Uppsala University. The specific course is Game Programming 1. It turned into a bigger project than I expected, but I had a lot of fun with it.",
             "p2" : "The task was to recreate a classic game in about a month, although since the assignement overlapped the holidays I only worked on it for about two weeks. All of the source code outside of SDL was written entirely by me. My goal was to create the first four levels of the original The Legend of Zelda game for the NES, including the starting cave where you retrieve the sword.",
-            "p3" : "Further information about the project and development process can be found in the project github repo (linked to the right). Disclaimer: This was created very early on in my C++ education, and the code might not be up to my current standard."
+            "p3" : "Further information about the project and development process can be found in the project github repo (linked to the right)."
         },
         "website" : "https://github.com/meNotLucky/Zelda-in-SDL",
         "splash" : "images/zelda/splash.png",
@@ -181,7 +181,7 @@
         "text" :
         {
             "p1" : "This is a discord bot I made in my spare time. At first, it was made as a tool to use for scheduling whilst developing 'Of the Sky' as we hade to develop the game at distance. But then I wanted to take it a bit further and release it for the public.",
-            "p2" : "The bot is far from advanced, its main functionality at this time is setting and storing the time zone of the channel it's in, and then adapting that time zone when the user calls the !sb-alarm function so that the bot can work from anywhere in the world.",
+            "p2" : "The bot's main functionality at this time is setting and storing the time zone of the channel it's in, and then adapting that time zone when the user calls the !sb-alarm function so that the bot can work from anywhere in the world.",
             "p3" : "I have a lot of plans for further functionality, including adding timers, adding alarms with specific time zones, adding daily/weekly/monthly/yearly alarms and much more. But for now I'm very happy with how it turned out."
         },
         "website" : "https://top.gg/bot/694152126359666728",
