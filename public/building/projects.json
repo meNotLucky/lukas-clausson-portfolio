@@ -1,5 +1,34 @@
 [
     {
+        "title" : "Exoborne",
+        "id": "exoborne",
+        "filter": "professional-projects",
+        "position" : "Gameplay Engineer",
+        "text" :
+        {
+            "p1" : "Gear up, get in, and get out in Exoborne, a tactical open world extraction shooter set in an apocalyptic U.S. transformed by extreme forces of nature. Lay it all on the line and explore a dynamic world full of warring factions and hostile players, where you scavenge, craft, and fight to stay alive.",
+            "p2" : "This is the project I'm currently working on at Sharkmob. My responsibilities mainly include handling of loot and interactions."
+        },
+        "trailer" : "https://www.youtube.com/watch?v=esvQEDlavLs",
+        "website" : "https://www.exoborne.com/en/",
+        "splash" : "images/exoborne/exoborne_header.jpg",
+        "screenshots" :
+        {
+            "01" : "images/exoborne/exoborne_screenshot_1.jpg",
+            "02" : "images/exoborne/exoborne_screenshot_2.jpg",
+            "03" : "images/exoborne/exoborne_screenshot_3.jpg"
+        },
+        "specs" :
+        {
+            "duration" : "Ongoing",
+            "engine" : "Unreal Engine 5",
+            "language" : "C++ & Blueprints",
+            "platform" : "PC, PS5, Xbox Series X|S",
+            "input" : "Gamepad, Mouse/Keyboard"
+        }
+        
+    },
+    {
         "title" : "Miasma Chronicles",
         "id": "miasma",
         "filter": "professional-projects",
