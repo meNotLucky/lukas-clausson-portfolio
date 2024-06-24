@@ -171,9 +171,9 @@
       let portfolioFilters = select('#portfolio-flters li', true);
 
       // Default filter
-      // portfolioIsotope.arrange({
-      //   filter: ".filter-student-games"
-      // });
+      portfolioIsotope.arrange({
+        filter: ".filter-professional-projects"
+      });
 
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
