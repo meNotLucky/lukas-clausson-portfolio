@@ -11,12 +11,12 @@
         },
         "trailer" : "https://www.youtube.com/watch?v=esvQEDlavLs",
         "website" : "https://www.exoborne.com/en/",
-        "splash" : "images/exoborne/exoborne_header.jpg",
+        "splash" : "images/exoborne/exoborne_header.jpeg",
         "screenshots" :
         {
-            "01" : "images/exoborne/exoborne_screenshot_1.jpg",
-            "02" : "images/exoborne/exoborne_screenshot_2.jpg",
-            "03" : "images/exoborne/exoborne_screenshot_3.jpg"
+            "01" : "images/exoborne/exoborne_screenshot_1.jpeg",
+            "02" : "images/exoborne/exoborne_screenshot_2.jpeg",
+            "03" : "images/exoborne/exoborne_screenshot_3.jpeg"
         },
         "specs" :
         {
